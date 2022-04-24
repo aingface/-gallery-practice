@@ -2,18 +2,21 @@ import React from "react";
 import "antd/dist/antd.css";
 import { Menu, Dropdown, Button } from 'antd';
 import styled from 'styled-components';
-import domtoimage from 'dom-to-image';
-import { saveAs } from 'file-saver';
+// import domtoimage from 'dom-to-image';
+// import { saveAs } from 'file-saver';
 
 
+//드롭다운 버튼-다운로드 버튼 클릭 시 이미지 다운로드 구현 필요   
 const downloadHandler=(event:any)=>{
   console.log(event);
   // domtoimage
   //   .toBlob(document.querySelector('.test'))
   //   .then((blob) => {
   //     saveAs(blob, 'card.png');
-  //   });
+  //}); 
 }
+
+//드롭 다운버튼 - 삭제 버튼 클릭 시 이미지 삭제 구현 필요 
 
 const menu = (
   <Menu
@@ -37,7 +40,6 @@ const menu = (
 );
 
 const DropdownButton = () => {
- 
   return (
     <CustomDropdown
       overlay={menu}
@@ -56,7 +58,7 @@ const CustomDropdown=styled(Dropdown)`
   border-color: transparent;
   display: flex;
   top: 10%;
-  left: 70%;
+  right: 10%;
   width: 10%;
   justify-content: center;
   align-items: center;

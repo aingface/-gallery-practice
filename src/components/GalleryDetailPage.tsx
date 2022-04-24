@@ -73,8 +73,8 @@ const DetailIMg=styled.img`
   position: absolute;
   top: 3rem;
   object-fit: contain;
-  width: 86%;
-  height: auto;
+  width: auto;
+  height: 80%;
 `
 
 const GalleryDetailPageWrapper=styled.div`
