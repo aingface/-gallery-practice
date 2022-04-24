@@ -11,7 +11,7 @@
 <br/>
 <br/>
 
-2. 이미지 카드 드롭다운 버튼<br/>
+2. 이미지 카드 드롭다운 버튼<br/><br/> 
 ![2  이미지 카드 드롭다운 ](https://user-images.githubusercontent.com/40132591/164985110-8d8df4ef-5f64-46c1-b3ab-007f06a0bc8c.png)
 <br/>
 <br/>
