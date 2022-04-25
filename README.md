@@ -52,7 +52,7 @@
 
 
 
-## 구현 동영상 링크
+## 구현 동영상 링크(사진 )
 
 [![갤러리 페이지 구현 동영상](https://img.youtube.com/vi/CiqYxK7vMxo/0.jpg)](https://youtu.be/CiqYxK7vMxo)
 
